@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Elena</h1>
+    <nav> 
+      <ul class="menu">
+      <li onclick="scrollToSection('about')">About me </li>
+      <li onclick="scrollToSection('work')">Work </li>
+      <li onclick="scrollToSection('contact')">Contact me</li>
+      <li>Resume</li>
+    </ul>
+    </nav>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+      <img src="images/02-hero-bg.jpg" alt="Your Name's Logo">
+      <h2>Cool subtitle here!</h2>
+  </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div class="text-block">
+        <hr class="separator">
+        <p>Your text goes here</p>
+       </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <hr class="separator">
+      <div class="container">
+        <div class="image">
+            <img src="02-portfolio-4.jpg" alt="Image laptop">
+            <img src="">
+        </div>
+        
+        <!-- Add more headers and images as needed -->
+     </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="text-block">
+        <hr class="separator">
+        <p>Your text goes here</p>
+       </div>
+    </section>
+  </main>
+</body>
+
+</html>
