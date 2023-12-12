@@ -10,16 +10,17 @@
 </head>
 
 <body>
+  
   <!-- main logo / nav -->
   <header>
-    <h1>Elena</h1>
-    <nav> 
-      <ul class="menu">
-      <li onclick="scrollToSection('about')">About me </li>
-      <li onclick="scrollToSection('work')">Work </li>
-      <li onclick="scrollToSection('contact')">Contact me</li>
-      <li>Resume</li>
-    </ul>
+    <h1>Your Name</h1>
+   <nav> 
+     <ul class="menu">
+        <li onclick="scrollToSection('About')">About me</li>
+        <li onclick="scrollToSection('Work')">Work</li>
+        <li onclick="scrollToSection('Contact')">Contact me</li>
+        <li>Resume</li>
+     </ul>
     </nav>
   </header>
 
@@ -30,38 +31,71 @@
   </section>
 
   <main class="page-wrapper">
+    
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="text-block">
+  <section class="page-section" id="about">
+    <div class="header">
+        <h2>About Me</h2>
         <hr class="separator">
-        <p>Your text goes here</p>
-       </div>
-    </section>
+       <p>Your text goes here</p>
+    </div> 
+  </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
+  <section class="page-section" id="work">
+    <div class="header">
       <h2>Work</h2>
       <hr class="separator">
-      <div class="container">
-        <div class="image">
-            <img src="02-portfolio-4.jpg" alt="Image laptop">
-            <img src="">
-        </div>
-        
-        <!-- Add more headers and images as needed -->
+    </div>
+    <div class="main-image container">
+          <img class="main-image" src="C:\Users\mymcr\desktop\module\Portfolio-Page\starter\images\02-portfolio-4.jpg" alt="Surfing image">
+      <div class="main-image text-block">
+        <h3>Surf report</h3>
+          <p>MERN Stack</p>
      </div>
+    </div>
     </section>
+    <div class="gallery-container">
+      <div class="gallery">
+        <a target="_blank" href="images\02-portfolio-1.jpg">
+          <img src="C:\Users\mymcr\desktop\module\Portfolio-Page\starter\images\02-portfolio-1.jpg" alt="Red led wall" >
+          <div class="desc">Led Wall<br/>Node/loT</div>
+        </a>
+     </div>
+      <div class="gallery">
+        <a target="_blank" href="images\02-portfolio-2.jpg">
+          <img src="C:\Users\mymcr\desktop\module\Portfolio-Page\starter\images\02-portfolio-2.jpg" alt="A laptop">
+          <div class="desc">Calculator<br/>React/JavaScript/CSS</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="mages\02-portfolio-3.jpg">
+            <img src="C:\Users\mymcr\desktop\module\Portfolio-Page\starter\images\02-portfolio-3.jpg" alt="A light blue car on a pink and like blue background">
+            <div class="desc">Pastel Pazzls<br/>Mern Stack</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images\02-run-buddy.jpg">
+          <img src="C:\Users\mymcr\desktop\module\Portfolio-Page\starter\images\02-run-buddy.jpg" alt="A webpage login">
+          <div class="desc">Run Buddy<br/>HTML/CSS</div>
+        </a>
+      </div>
+    </div>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
+ <!-- contact -->
+
+  <section class="page-section contact" id="contact">
+    <div class="header">
       <h2>Contact Me</h2>
-      <div class="text-block">
-        <hr class="separator">
-        <p>Your text goes here</p>
-       </div>
-    </section>
-  </main>
+      <hr class="separator">
+    </div>
+        <p>Phone number<br />Email<br />GitHub<br />Twitter<br />Spotify</p>
+  </section>
+   
+<!--Closing tags-->
+
+</main>
 </body>
 
-</html>
+</html>                                                                                                                                                                                            
+                                                                
