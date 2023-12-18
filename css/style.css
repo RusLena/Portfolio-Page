@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(187, 187, 233);
+}
+
+header {
+  background-color: rgb(42, 46, 46);
+  margin: 0x;
+  padding: 20px;
+}
+
+.header {
+  text-align: left;
+}
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+nav ul li {
+  display: block;
+  padding: 0;
+}
+
+h1 {
+  position:absolute;
+  top: 40px;
+  margin: 10px;
+  background-color: rgb(73, 160, 144);
+  color: black;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+  left: 100px;
+  font-weight: bold;
+  font-size: 20px; color: rgb(8, 122, 122);
+  border-bottom: 2px solid rgb(8, 122, 122);
+  cursor: pointer;
+  transition: border-bottom-color 0.3s;
+}
+
+.menu li:hover {
+  border-bottom-color: whitesmoke;
+}
+
+.hero-banner {
+  position: relative;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 400px;
+  display: block;
+  border: 5px solid rgb(73, 160, 144);
+}
+
+.hero-banner h2 {
+  position: absolute;
+  text-align: right;
+  bottom: 15px;
+  right: 15px;
+  margin: 15px;
+  background-color: rgb(73, 160, 144);
+  padding: 3px;
+  color: black; 
+  font-size: 2em;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.main-image {
+  width: 100%; 
+  max-width: 100%; 
+  height: 600px;
+  display: block;
+  margin-bottom: 5px;
+  border: 5px solid rgb(73, 160, 144);
+  position: relative;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.main-image .text-block {
+  position: absolute;
+  text-align: left;
+  width: 300px;
+  height: 100px;
+  bottom: 5px;
+  left: 0px;
+  margin-left: 30px;
+  background-color: rgb(73, 160, 144);
+  color: black;
+  font-weight: bolder;
+}
+
+#id 
+  thicker {
+    font-weight: bolder;
+}
+
+
+/* Style for the gallery images */
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  margin: 5px;
+  border: 5px solid rgb(73, 160, 144);
+  width: 700px;
+  height: 330px;
+}
+
+.gallery img {
+  width: 690px;
+  height: 283px;
+  border: 5px solid rgb(73, 160, 144);
+}
+
+#about {
+  font-weight: 900;
+  font-size: large;
+  order: 1;
+}
+
+#contact {
+  font-weight: 900;
+  font-size: large;
+}
+
+/* Page wrapper styles */
+
+.page-wrapper {
+  max-width: 0 auto;
+  margin: 0 auto;
+}
+
+.page-section {
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.separator {
+  border: black;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+  margin: 10px 0;
+}
+
+/* Contact section styles */
+
+.container {
+  display: block;
+  text-align: center;
+  margin-top: auto; 
+  order: 1;
+  
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 600px) {
+}
+
+div.gallery:hover {
+  border: 1px solid whitesmoke;
+}
+
+div.desc {
+  text-align: left;
+  background-color: rgb(73, 160, 144);
+  color: black;
+  font-weight: bolder;
+}
