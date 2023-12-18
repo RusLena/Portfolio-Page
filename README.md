@@ -30,3 +30,4 @@ Thank you for checking out my portfolio page!
 
 Best regards,
 Elena Golovko
+![alt text](./images/My%20Portfolio.png)
